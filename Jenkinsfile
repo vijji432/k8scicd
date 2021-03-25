@@ -3,6 +3,7 @@ pipeline {
     environment {
         registry = "magalixcorp/k8scicd"
         GOCACHE = "/tmp"
+        GOPATH = "/opt"
     }
     stages {
         stage('Build') {
